@@ -20,7 +20,7 @@ function bumpCounter()
 
 function createAnimal(animalType)
 {
-  return (deadlyDevice) => {animalType, deadlyDevice}
+  return (deadlyDevice) => return {animalType, deadlyDevice};
 }
 
 sharkCreator = createAnimal.bind(null,'Shark');
