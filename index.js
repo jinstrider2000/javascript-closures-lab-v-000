@@ -23,6 +23,6 @@ function createAnimal(animalType)
   return (deadlyDevice) => {return {animalType, deadlyDevice};}
 }
 
-sharkCreator = createAnimal.bind(null,'Shark');
-sharkWithFrickinLaserbeam = sharkCreator()('Laserbeam');
-sharkWithFrickinCannon = sharkCreator()('Cannon');
+var sharkCreator = createAnimal.bind(null,'Shark');
+var sharkWithFrickinLaserbeam = sharkCreator()('Laserbeam');
+var sharkWithFrickinCannon = sharkCreator()('Cannon');
