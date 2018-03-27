@@ -24,3 +24,5 @@ function createAnimal(animalType)
 }
 
 sharkCreator = createAnimal.bind(null,'Shark');
+sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
+sharkWithFrickinCannon = sharkCreator('Cannon');
