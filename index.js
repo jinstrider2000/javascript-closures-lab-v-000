@@ -14,6 +14,13 @@ function bumpCounter()
     return counter;
   }
 
-  return {addBump, getBumps}
+  return {addBump, getBumps};
 
 }
+
+function createAnimal(animalType)
+{
+  return (deadlyDevice) => {animalType, deadlyDevice};
+}
+
+sharkCreator = createAnimal.bind(null,'Shark');
